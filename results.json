@@ -1,0 +1,50 @@
+{
+  "language": "hi",
+  "data_hash": "sha256:4e5e83677b7854ada5b85e5d882c3200b1b80570ca57915ea826e9787692b5da",
+  "stats": {
+    "num_docs": 1500,
+    "total_tokens": 1984816,
+    "vocab_size": 102739
+  },
+  "zipf": {
+    "alpha": 1.1986,
+    "r2": 0.9527
+  },
+  "heaps": {
+    "k": 5.142,
+    "beta": 0.6823,
+    "r2": 0.9998
+  },
+  "compression": {
+    "method": "vbyte",
+    "raw_bytes": 13268362,
+    "compressed_bytes": 11862442,
+    "ratio": 1.1185
+  },
+  "queries": {
+    "count": 1,
+    "examples": [
+      {
+        "query": "भारत देश",
+        "type": "boolean AND",
+        "num_results": 618
+      }
+    ]
+  },
+  "tolerant": {
+    "k": 2,
+    "wildcard_examples": [
+      {
+        "pattern": "किताब*",
+        "num_candidates": 3,
+        "num_matches": 3
+      }
+    ],
+    "option_examples": [
+      {
+        "latin": "bhaarat",
+        "native": "भारत्"
+      }
+    ]
+  }
+}

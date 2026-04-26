@@ -1,0 +1,10 @@
+indic-transliteration>=1.6.0
+jupyter>=1.0.0
+ipykernel>=6.0
+numpy>=1.24
+matplotlib>=3.7
+
+# Optional / dev
+# pytest
+# black
+# flake8

@@ -1,0 +1,8 @@
+{
+  "language": "hi",
+  "data_dir": "data/hindi",
+  "results": "results.json",
+  "commands": {
+    "run_all": "python src/run_all.py --data data/hindi --out results.json"
+  }
+}
